@@ -44,22 +44,6 @@
 <li>
   <a href="articles/reference.html">Reference</a>
 </li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    News
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-<li class="dropdown-header">Release notes</li>
-    <li>
-      <a href="articles/r2dii-data-0-0-3.html">r2dii.data 0.0.3</a>
-    </li>
-    <li>
-      <a href="articles/r2dii-match-0-0-1.html">r2dii.match 0.0.1</a>
-    </li>
-  </ul>
-</li>
       </ul>
 <ul class="nav navbar-nav navbar-right">
 <li>
@@ -86,12 +70,13 @@
 
       </header><div class="row">
   <div class="contents col-md-9">
-<div id="-install-and-use-r2dii-packages" class="section level1">
+<div id="r2dii-" class="section level1">
 <div class="page-header"><h1 class="hasAnchor">
-<a href="#-install-and-use-r2dii-packages" class="anchor"></a><img src="https://i.imgur.com/3jITMq8.png" align="right" height="40"> Install and use r2dii packages</h1></div>
+<a href="#r2dii-" class="anchor"></a>r2dii <a href="https://github.com/2DegreesInvesting/r2dii"><img src="https://imgur.com/A5ASZPE.png" align="right" height="43"></a>
+</h1></div>
 <!-- badges: start -->
 
-<p><a href="https://2degrees-investing.org/">2 Â° Investing Initiative</a> maintains a collection or R packages called r2dii. To help you install and use all those packages at once, we also built the meta package r2dii. Run <code><a href="https://rdrr.io/pkg/r2dii/man">library(r2dii)</a></code> to see the name of all packages in r2dii. Learn more about each package at â<a href="https://2degreesinvesting.github.io/PACKAGE/" class="uri">https://2degreesinvesting.github.io/PACKAGE/</a>â â for example, the website of the package r2dii.data is at <a href="https://2degreesinvesting.github.io/r2dii.data/" class="uri">https://2degreesinvesting.github.io/r2dii.data/</a>.</p>
+<p><a href="https://2degrees-investing.org/">2 Â° Investing Initiative</a> maintains a collection or R packages called r2dii. To help you install and use all those packages at once, we also built the meta package r2dii. Run <code><a href="https://github.com/2DegreesInvesting/r2dii//reference">library(r2dii)</a></code> to see the name of all packages in r2dii. Learn more about each package at â<a href="https://2degreesinvesting.github.io/PACKAGE/" class="uri">https://2degreesinvesting.github.io/PACKAGE/</a>â â for example, the website of the package r2dii.data is at <a href="https://2degreesinvesting.github.io/r2dii.data/" class="uri">https://2degreesinvesting.github.io/r2dii.data/</a>.</p>
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h2>
@@ -129,7 +114,7 @@
 <p>It also includes datasets for examples and tests.</p>
 <div class="sourceCode" id="cb4"><pre class="r"><span class="co"># Column definitions for all datasets</span>
 <span class="no">data_dictionary</span>
-<span class="co">#&gt; # A tibble: 63 x 4</span>
+<span class="co">#&gt; # A tibble: 70 x 4</span>
 <span class="co">#&gt;    dataset  column             typeof  definition                               </span>
 <span class="co">#&gt;    &lt;chr&gt;    &lt;chr&gt;              &lt;chr&gt;   &lt;chr&gt;                                    </span>
 <span class="co">#&gt;  1 ald_demo ald_timestamp      characâ¦ Date at which asset data was pulled fromâ¦</span>
@@ -142,7 +127,7 @@
 <span class="co">#&gt;  8 ald_demo plant_location     characâ¦ Country where asset is located           </span>
 <span class="co">#&gt;  9 ald_demo production         double  Company level production of the technoloâ¦</span>
 <span class="co">#&gt; 10 ald_demo production_unit    characâ¦ The units that production is measured in </span>
-<span class="co">#&gt; # â¦ with 53 more rows</span>
+<span class="co">#&gt; # â¦ with 60 more rows</span>
 
 <span class="co"># Some example datasets</span>
 <span class="no">loanbook_demo</span>
