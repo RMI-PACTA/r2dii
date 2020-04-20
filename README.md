@@ -57,16 +57,6 @@ sprintf("Welcome to 2%s Investing Initiative!", degrees())
 #> [1] "Welcome to 2° Investing Initiative!"
 
 clean_column_names(dplyr::group_by(tibble::tibble(x.x = 1), x.x))
-#> Warning in stringr::str_replace_all(str = string, pattern = replace): partial
-#> argument match of 'str' to 'string'
-#> Warning in stringr::str_replace(str = transliterated_names, pattern = "\\A[\
-#> \h\\s\\p{Punctuation}\\p{Symbol}\\p{Separator}\\p{Other}]*(.*)$", : partial
-#> argument match of 'str' to 'string'
-#> Warning in stringr::str_replace_all(str = string, pattern = replace): partial
-#> argument match of 'str' to 'string'
-#> Warning in stringr::str_replace(str = transliterated_names, pattern = "\\A[\
-#> \h\\s\\p{Punctuation}\\p{Symbol}\\p{Separator}\\p{Other}]*(.*)$", : partial
-#> argument match of 'str' to 'string'
 #> # A tibble: 1 x 1
 #> # Groups:   x_x [1]
 #>     x_x
