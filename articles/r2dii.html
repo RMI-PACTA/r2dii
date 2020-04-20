@@ -106,10 +106,10 @@
   <span class="kw">destdir</span> <span class="kw">=</span> <span class="no">custom_destdir</span>,
   <span class="kw">config</span> <span class="kw">=</span> <span class="no">custom_config</span>
 )
-<span class="co">#&gt; Wrote 'config-toy.yml' to '/tmp/RtmpLL1Hkf/config-toy.yml'.</span>
-<span class="co">#&gt; Warning in gzfile(file, "rb"): cannot open compressed file '/home/mauro/Dropbox</span>
-<span class="co">#&gt; (2° Investing)/2° Investing Team/People/Klaus/GitHub/Reference/ReferenceData/</span>
-<span class="co">#&gt; BenchRegions.rda', probable reason 'No such file or directory'</span>
+<span class="co">#&gt; Wrote 'config-toy.yml' to '/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/RtmpQzgM2e/config-toy.yml'.</span>
+<span class="co">#&gt; Warning in gzfile(file, "rb"): cannot open compressed file '/Users/runner/</span>
+<span class="co">#&gt; Dropbox (2° Investing)/2° Investing Team/People/Klaus/GitHub/Reference/</span>
+<span class="co">#&gt; ReferenceData/BenchRegions.rda', probable reason 'No such file or directory'</span>
 <span class="co">#&gt; Warning: Can't write the following datasets:</span>
 <span class="co">#&gt; RevenueSplit, BENCH.REGIONS</span></pre></body></html></div>
 <p>Use:</p>
@@ -123,9 +123,9 @@
   <span class="kw">config</span> <span class="kw">=</span> <span class="no">custom_config</span>
 )
 <span class="co">#&gt; Skipping existing snapshot of 'config-toy.yml'.</span>
-<span class="co">#&gt; Warning in gzfile(file, "rb"): cannot open compressed file '/home/mauro/Dropbox</span>
-<span class="co">#&gt; (2° Investing)/2° Investing Team/People/Klaus/GitHub/Reference/ReferenceData/</span>
-<span class="co">#&gt; BenchRegions.rda', probable reason 'No such file or directory'</span>
+<span class="co">#&gt; Warning in gzfile(file, "rb"): cannot open compressed file '/Users/runner/</span>
+<span class="co">#&gt; Dropbox (2° Investing)/2° Investing Team/People/Klaus/GitHub/Reference/</span>
+<span class="co">#&gt; ReferenceData/BenchRegions.rda', probable reason 'No such file or directory'</span>
 <span class="co">#&gt; Warning: Can't write the following datasets:</span>
 <span class="co">#&gt; RevenueSplit, BENCH.REGIONS</span>
 
@@ -136,8 +136,8 @@
   <span class="kw">config</span> <span class="kw">=</span> <span class="no">custom_config</span>,
   <span class="kw">overwrite</span> <span class="kw">=</span> <span class="fl">TRUE</span>
 )
-<span class="co">#&gt; Wrote 'config-toy.yml' to '/tmp/RtmpLL1Hkf/config-toy.yml'.</span>
-<span class="co">#&gt; Warning in gzfile(file, "rb"): cannot open compressed file '/home/mauro/Dropbox (2° Investing)/2° Investing Team/People/Klaus/GitHub/Reference/ReferenceData/BenchRegions.rda', probable reason 'No such file or directory'</span>
+<span class="co">#&gt; Wrote 'config-toy.yml' to '/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/RtmpQzgM2e/config-toy.yml'.</span>
+<span class="co">#&gt; Warning in gzfile(file, "rb"): cannot open compressed file '/Users/runner/Dropbox (2° Investing)/2° Investing Team/People/Klaus/GitHub/Reference/ReferenceData/BenchRegions.rda', probable reason 'No such file or directory'</span>
 
 <span class="co">#&gt; Warning in gzfile(file, "rb"): Can't write the following datasets:</span>
 <span class="co">#&gt; RevenueSplit, BENCH.REGIONS</span></pre></body></html></div>
@@ -152,10 +152,10 @@
   <span class="kw">destdir</span> <span class="kw">=</span> <span class="no">custom_destdir</span>,
   <span class="kw">overwrite</span> <span class="kw">=</span> <span class="fl">TRUE</span>
 )
-<span class="co">#&gt; Wrote 'config-toy.yml' to '/tmp/RtmpLL1Hkf/config-toy.yml'.</span>
-<span class="co">#&gt; Warning in gzfile(file, "rb"): cannot open compressed file '/home/mauro/Dropbox</span>
-<span class="co">#&gt; (2° Investing)/2° Investing Team/People/Klaus/GitHub/Reference/ReferenceData/</span>
-<span class="co">#&gt; BenchRegions.rda', probable reason 'No such file or directory'</span>
+<span class="co">#&gt; Wrote 'config-toy.yml' to '/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/RtmpQzgM2e/config-toy.yml'.</span>
+<span class="co">#&gt; Warning in gzfile(file, "rb"): cannot open compressed file '/Users/runner/</span>
+<span class="co">#&gt; Dropbox (2° Investing)/2° Investing Team/People/Klaus/GitHub/Reference/</span>
+<span class="co">#&gt; ReferenceData/BenchRegions.rda', probable reason 'No such file or directory'</span>
 <span class="co">#&gt; Warning: Can't write the following datasets:</span>
 <span class="co">#&gt; RevenueSplit, BENCH.REGIONS</span>
 
@@ -172,7 +172,7 @@
 <a href="#create-paths" class="anchor"></a>Create paths</h2>
 <p>A family of functions create robust paths.</p>
 <div class="sourceCode" id="cb5"><html><body><pre class="r"><span class="fu">path_dropbox_2dii</span>()
-<span class="co">#&gt; /home/mauro/Dropbox (2° Investing)</span></pre></body></html></div>
+<span class="co">#&gt; /Users/runner/Dropbox (2° Investing)</span></pre></body></html></div>
 <p>(For you, the root directory might be similar to <code>C:/Users/You/...</code>)</p>
 </div>
 <div id="configuration-file" class="section level2">
@@ -198,7 +198,7 @@
 restore &lt;- options(r2dii_config = your_config)
 
 get_config()
-[1] "/home/mauro/R/x86_64-pc-linux-gnu-library/3.6/r2dii.utils/config-toy.yml"
+[1] "/Users/runner/runners/2.169.0/work/_temp/Library/r2dii.utils/config-toy.yml"
 
 show_config(get_config())
 default:
@@ -284,7 +284,7 @@ options(restore)</pre></body></html></div>
 </div>
 
 <div class="pkgdown">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.5.1.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.5.1.9000.</p>
 </div>
 
       </footer>
