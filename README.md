@@ -18,9 +18,10 @@ status](https://travis-ci.com/2degreesinvesting/r2dii.svg?branch=master)](https:
 collection or R packages called r2dii. To help you install and use all
 those packages at once, we also built the meta package r2dii. Run
 `library(r2dii)` to see the name of all packages in r2dii. Learn more
-about each package at “<https://2degreesinvesting.github.io/PACKAGE/>” –
-for example, the website of the package r2dii.data is at
-<https://2degreesinvesting.github.io/r2dii.data/>.
+about each package at a link of the form
+`https://2degreesinvesting.github.io/<package name goes here>/` – for
+example, <https://2degreesinvesting.github.io/r2dii.data/>, or
+<https://2degreesinvesting.github.io/r2dii.match/>.
 
 ## Installation
 
